@@ -9,21 +9,25 @@ body {
 }
 /* banner-section start */
 .banner-section {
-  background-image: url(images/donation12.png);
+  background-image: url(images/flood-effect.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
   text-align: center;
-  color: #fff;
   padding: 0;
 }
 .banner-section p {
+  color: rgb(25, 15, 86);
+  font-size: 20px;
+}
+.banner-section h1 {
   color: #fff;
 }
 h1 {
-  font-size: 60px;
-  font-weight: 800;
+  font-size: 45px;
+  font-weight: 700;
+  color: #4b4b4b;
 }
 p {
   font-weight: 700;
@@ -73,10 +77,12 @@ input {
   height: 100px;
   background-color: #e4dccf;
   margin: 0 10px 5px;
-  padding-top: 20px;
+  padding-top: 15px;
+  font-size: 20px;
 }
 .donetion-amount {
   text-align: center;
+  margin: 20px 0;
 }
 .red-color {
   background-color: #ff8b8b;
@@ -86,10 +92,12 @@ input {
 .donation-section .link-button {
   display: block;
   width: 180px;
-  margin: 15px auto;
+  margin: 25px auto;
   border-radius: 5px;
 }
+/* donation section end */
 
+/* donation plan section start */
 #donation-plan {
   text-align: center;
   margin: auto;
@@ -97,7 +105,7 @@ input {
 .donation-plan-content {
   padding: 10px;
   border-radius: 5px;
-  height: 300px;
+  height: 320px;
   margin: 15px 10px;
 }
 
@@ -113,19 +121,32 @@ input {
   background-color: #faf4b7;
   width: 25%;
 }
+#education img {
+  height: 60px;
+}
 
-/* donation section end */
+/* donation plan section end */
 
 /* about us section start */
-
-.about-us-img img {
+.about-us-section {
+  text-align: center;
+  background-color: #f5f6fa;
+}
+.about-us-content {
   width: 40%;
+}
+.about-us-img img {
+  width: 80%;
+  display: inline;
 }
 .blue {
   color: #17c0eb;
 }
 .red {
   color: #ff4d4d;
+}
+.about-us-img {
+  width: 40%;
 }
 
 /* contact page start */
@@ -180,7 +201,9 @@ footer p {
   font-size: 20px;
   padding-top: 50px;
 }
-span {
-  font-weight: 500;
-  font-size: 20px;
+span,
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #4b4b4b;
 }
