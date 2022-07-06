@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
 }
+/* banner-section start */
 .banner-section {
   background-image: url(images/donation12.png);
   background-repeat: no-repeat;
@@ -43,4 +44,38 @@ p {
   border-radius: 20px;
   color: #fff;
   font-weight: 700;
+}
+/* banner-section end */
+
+/* donation section start */
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #b4b4b4;
+  width: 70%;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.donation-section {
+  text-align: center;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.taka {
+  width: 100px;
+  height: 100px;
+  background-color: #e4dccf;
+  margin: 0 10px 5px;
+  padding-top: 20px;
+}
+.donetion-amount {
+  text-align: center;
+}
+.red-color {
+  background-color: #ff8b8b;
+  border: 3px solid #eb4747;
+  border-radius: 10px;
 }
