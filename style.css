@@ -18,12 +18,16 @@ body {
   color: #fff;
   padding: 0;
 }
+.banner-section p {
+  color: #fff;
+}
 h1 {
   font-size: 60px;
   font-weight: 800;
 }
 p {
   font-weight: 700;
+  color: #413f42;
 }
 
 #banner-content {
@@ -78,4 +82,34 @@ input {
   background-color: #ff8b8b;
   border: 3px solid #eb4747;
   border-radius: 10px;
+}
+.donation-section .link-button {
+  display: block;
+  width: 180px;
+  margin: 15px auto;
+  border-radius: 5px;
+}
+
+/* donation section end */
+#donation-plan {
+  text-align: center;
+  margin: auto;
+}
+.donation-plan-content {
+  padding: 10px;
+  border-radius: 5px;
+  height: 300px;
+  margin: 15px 10px;
+}
+#food {
+  background-color: #ffe6e6;
+  width: 25%;
+}
+#shelter {
+  background-color: #daeaf1;
+  width: 25%;
+}
+#education {
+  background-color: #faf4b7;
+  width: 25%;
 }
