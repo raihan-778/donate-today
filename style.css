@@ -113,3 +113,23 @@ input {
   background-color: #faf4b7;
   width: 25%;
 }
+form input {
+  display: inline;
+}
+#email {
+  outline: none;
+  background-color: #d9d5d5;
+  max-width: 300px;
+  height: 30px;
+  border-radius: 20px;
+}
+#email .placeholder {
+  color: #413f42;
+}
+#submit-btn {
+  outline: none;
+  background-color: #d9d5d5;
+  max-width: 100px;
+  height: 30px;
+  border-radius: -20px;
+}
