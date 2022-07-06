@@ -90,7 +90,6 @@ input {
   border-radius: 5px;
 }
 
-/* donation section end */
 #donation-plan {
   text-align: center;
   margin: auto;
@@ -101,6 +100,7 @@ input {
   height: 300px;
   margin: 15px 10px;
 }
+
 #food {
   background-color: #ffe6e6;
   width: 25%;
@@ -113,6 +113,22 @@ input {
   background-color: #faf4b7;
   width: 25%;
 }
+
+/* donation section end */
+
+/* about us section start */
+
+.about-us-img img {
+  width: 40%;
+}
+.blue {
+  color: #17c0eb;
+}
+.red {
+  color: #ff4d4d;
+}
+
+/* contact page start */
 form input {
   display: inline;
 }
@@ -120,16 +136,51 @@ form input {
   outline: none;
   background-color: #d9d5d5;
   max-width: 300px;
-  height: 30px;
-  border-radius: 20px;
+  height: 50px;
+  border-radius: 20px 0 0 20px;
+  margin-right: -4px;
+  padding-left: 5px;
+  text-align: left;
 }
-#email .placeholder {
-  color: #413f42;
-}
+
 #submit-btn {
   outline: none;
-  background-color: #d9d5d5;
-  max-width: 100px;
-  height: 30px;
-  border-radius: -20px;
+  background-color: #eb4747;
+  width: 120px;
+  height: 50px;
+  border-radius: 0 20px 20px 0;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+#contact-section {
+  text-align: center;
+}
+.form-control {
+  background-color: #f9e0e0;
+  width: 600px;
+  height: 150px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* contact end*/
+
+footer {
+  height: 150px;
+  width: 100vw;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+footer p {
+  color: rgb(210, 202, 202);
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 50px;
+}
+span {
+  font-weight: 500;
+  font-size: 20px;
 }
