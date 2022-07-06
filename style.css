@@ -7,3 +7,40 @@ body {
   margin: 0;
   padding: 0;
 }
+.banner-section {
+  background-image: url(images/donation12.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+p {
+  font-weight: 700;
+}
+
+#banner-content {
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  width: 70%;
+}
+.flexible-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-button {
+  text-decoration: none;
+  padding: 10px 25px;
+  background-image: linear-gradient(to right, #ff8b8b, #eb4747);
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+}
